@@ -1,16 +1,36 @@
-## Hi there 👋
+# Hi 👋, I’m Gil Meyuhas
 
-<!--
-**Gilmeyuhas/gilmeyuhas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🔭 About Me
+I’m a DevOps & IT Engineer & multi-instrumentalist musician based in Jerusalem.  
+I love building and automating infrastructure, tinkering with media servers, and exploring new tech.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ Tech Stack & Skills
+- **Cloud & Infra:** Terraform · AWS · Ansible  
+- **Containers & Orchestration:** Docker · Kubernetes  
+- **CI/CD & Automation:** Jenkins · GitHub Actions · Bash · Python  
+- **DevOps & Security:** Linux Administration · ISO 27001 Compliance · NFS/SMB · Synology NAS  
+- **Media & Other Tools:** ARR Suite
+
+---
+
+## 📈 GitHub Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=gilmeyuhas&show_icons=true&count_private=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gilmeyuhas&layout=compact&count_private=true&include_all_commits=true&theme=radical)
+<p align="center">
+  <em>but does it show private repos?</em>
+</p>
+
+---
+
+## 🤝 Let’s Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/gil-meyuhas-304796249/)  
+[![Instagram](https://img.shields.io/badge/Instagram-@gilmeyuhas-purple?logo=instagram&logoColor=white)](https://www.instagram.com/gilmeyuhas/)  
+[![Spotify](https://img.shields.io/badge/Spotify-Listen-green?logo=spotify&logoColor=white)](https://open.spotify.com/artist/6WzlVsRvDUiIhICZasGD2i?si=MmVdVGOxS0eukwG_5fhhQQ)  
+
+<p align="center">
+  <em>“Continuous improvement in code and life.”</em>
+</p>
