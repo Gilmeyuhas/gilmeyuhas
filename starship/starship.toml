@@ -1,0 +1,51 @@
+add_newline = false
+
+format = """\
+[\\[$time\\]](bold blue) \
+[took $duration](bold yellow) \
+[ $username](bold magenta) \
+[ $hostname](bold cyan) \
+[📂 $directory](bold green) \
+$git_branch$git_status \
+$character"""
+
+[time]
+disabled = false
+format = "$time"
+style = "bold blue"
+
+[cmd_duration]
+min_time = 0
+format = "took [$duration](bold yellow) "
+
+[username]
+style_user = "bold magenta"
+style_root = "bold red"
+show_always = true
+format = "$user"  # ← REMOVE "in"
+
+[hostname]
+style = "bold cyan"
+ssh_only = false
+format = "$hostname"  # ← REMOVE "@"
+
+[directory]
+style = "bold green"
+truncation_length = 3
+truncate_to_repo = false
+read_only = " 🔒"
+format = "$path"  # ← REMOVE "in"
+
+[git_branch]
+style = "bold bright-red"
+format = " [$branch]($style) "  # ← REMOVE "on"
+
+[git_status]
+format = "[$all_status$ahead_behind](bold bright-yellow) "
+style = "bold bright-yellow"
+disabled = false
+
+[character]
+success_symbol = "[❯](bold bright-blue) "
+error_symbol = "[❯](bold red) "
+
