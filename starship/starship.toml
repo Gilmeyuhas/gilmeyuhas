@@ -1,8 +1,7 @@
 add_newline = false
 
 format = """\
-[\\[$time\\]](bold blue) \
-[took $duration](bold yellow) \
+$time$cmd_duration\
 [ $username](bold magenta) \
 [ $hostname](bold cyan) \
 [📂 $directory](bold green) \
@@ -11,8 +10,7 @@ $character"""
 
 [time]
 disabled = false
-format = "$time"
-style = "bold blue"
+format = "[$time](bold blue) "
 
 [cmd_duration]
 min_time = 0
@@ -22,23 +20,23 @@ format = "took [$duration](bold yellow) "
 style_user = "bold magenta"
 style_root = "bold red"
 show_always = true
-format = "$user"  # ← REMOVE "in"
+format = "$user"
 
 [hostname]
 style = "bold cyan"
 ssh_only = false
-format = "$hostname"  # ← REMOVE "@"
+format = "$hostname"
 
 [directory]
 style = "bold green"
 truncation_length = 3
 truncate_to_repo = false
 read_only = " 🔒"
-format = "$path"  # ← REMOVE "in"
+format = "$path"
 
 [git_branch]
 style = "bold bright-red"
-format = " [$branch]($style) "  # ← REMOVE "on"
+format = " [$branch]($style) "
 
 [git_status]
 format = "[$all_status$ahead_behind](bold bright-yellow) "

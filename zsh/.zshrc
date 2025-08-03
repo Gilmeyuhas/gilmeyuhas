@@ -15,14 +15,10 @@ cd() {
   ll
 }
 
-# Starship prompt
-eval "$(starship init zsh)"
-
-# Autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=brightwhite'
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # --- Starship prompt ---
 eval "$(starship init zsh)"
+
+# --- Autosuggestions (soft gray) ---
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#888888'
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
