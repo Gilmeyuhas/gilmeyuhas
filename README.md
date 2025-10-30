@@ -17,6 +17,11 @@ I love building and automating infrastructure, tinkering with media servers, and
 
 ---
 
+## 🚀 Featured Projects
+- **yt2radarr** – A web UI that turns any publicly accessible YouTube video into a Radarr-ready movie file. Paste a YouTube URL, pick a movie from Radarr, and yt2radarr will download, rename, and drop the file exactly where Radarr (and Plex/Jellyfin) expects it.
+
+---
+
 ## 📈 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=gilmeyuhas&show_icons=true&count_private=true&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gilmeyuhas&layout=compact&count_private=true&include_all_commits=true&theme=radical)
