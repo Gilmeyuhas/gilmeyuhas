@@ -3,7 +3,38 @@
 # --- Aliases ---
 alias ll='ls -lah --color=auto'
 alias b='cd ..'
-alias sizes='du -sch * | gsort -h'
+sizes() {
+  local paths=("$@")
+
+  if (( $# == 0 )); then
+    paths=(*)
+  fi
+
+  du -sk "${paths[@]}" 2>/dev/null \
+    | sort -n \
+    | awk '
+        function human(bytes,   val, i, units) {
+          split("B K M G T P", units, " ");
+          val = bytes;
+          for (i = 1; val >= 1024 && i < length(units); i++) {
+            val /= 1024;
+          }
+          return sprintf("%.1f%s", val, units[i]);
+        }
+
+        {
+          bytes = $1 * 1024;
+          total += bytes;
+          printf "%s\t%s\n", human(bytes), $2;
+        }
+
+        END {
+          if (NR > 1) {
+            printf "%s\ttotal\n", human(total);
+          }
+        }
+      '
+}
 alias k='kubectl'
 alias v='nvim'
 mkcd() { mkdir -p "$1" && cd "$1"; }
