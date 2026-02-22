@@ -26,13 +26,20 @@ I love building and automating infrastructure, tinkering with media servers, and
 ---
 
 ## 📈 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Gilmeyuhas&show_icons=true&theme=radical&include_all_commits=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gilmeyuhas&layout=compact&theme=radical)
+<p align="center">
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api?username=Gilmeyuhas&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=radical&cache_seconds=21600"
+    alt="GitHub stats"
+  />
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gilmeyuhas&layout=compact&hide_border=true&theme=radical&langs_count=8&hide_progress=true&cache_seconds=21600"
+    alt="Top languages"
+  />
+</p>
 <p align="center">
   <em>but does it show private repos?</em>
-</p>
-
----
 
 ## 🤝 Let’s Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/gil-meyuhas-304796249/)  
