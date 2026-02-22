@@ -20,11 +20,14 @@ I love building and automating infrastructure, tinkering with media servers, and
 ## 🚀 Featured Projects
 - **YT2Radarr** – A web UI that turns any publicly accessible YouTube video into a Radarr-ready movie file. Paste a YouTube URL, pick a movie from Radarr, and yt2radarr will download, rename, and drop the file exactly where Radarr (and Plex/Jellyfin) expects it.
 [Check it out here!](https://github.com/Gilmeyuhas/yt2radarr)
+
+- **Nigel** – A self-hosted AI butler that oversees your entire stack. Converse naturally. Receive intelligent alerts. Approve decisive actions. Nigel observes, reasons, and acts to keep everything running smoothly. Your infrastructure, managed by an AI with standards. Also, he calls you 'Sir'.
+[Check it out here!](https://github.com/Gilmeyuhas/nigel)
 ---
 
 ## 📈 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=gilmeyuhas&show_icons=true&count_private=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gilmeyuhas&layout=compact&count_private=true&include_all_commits=true&theme=radical)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Gilmeyuhas&show_icons=true&theme=radical&include_all_commits=true)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gilmeyuhas&layout=compact&theme=radical)
 <p align="center">
   <em>but does it show private repos?</em>
 </p>
